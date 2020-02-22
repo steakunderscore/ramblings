@@ -73,7 +73,7 @@ resource "aws_s3_bucket_policy" "ramblings" {
         "s3:GetObject"
       ],
       "Effect": "Allow",
-      "Resource": "arn:aws:s3:::aws2-ramblings.henryjenkins.name/*",
+      "Resource": "arn:aws:s3:::ramblings.henryjenkins.name/*",
       "Principal": "*"
     }
   ]

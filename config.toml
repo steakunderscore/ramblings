@@ -92,8 +92,15 @@ order = [".jpg$", ".gif$"]
 
 [[deployment.targets]]
 # An arbitrary name for this target.
-name = "ramblings-gcs"
+name = "gcp"
 URL = "gs://ramblings.henryjenkins.name"
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "aws"
+# S3; see https://gocloud.dev/howto/blob/#s3
+# For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
+URL = "s3://aws2-ramblings.henryjenkins.name?region=us-east-1"
 
 [[deployment.matchers]]
 #  Cache static assets for 1 year

@@ -18,6 +18,9 @@ pygmentscodefencesguesssyntax = true
 # Number of posts to show in recent posts list (Optional). Defaults to 10.
 paginate = 10
 
+# Keep the summaries on the front page short
+summaryLength = 20
+
 [params]
 # Blog subtitle which appears below blog title. Supports markdown.
 subtitle = "I write what I write, read if you read."

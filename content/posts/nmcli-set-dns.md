@@ -7,6 +7,8 @@ disqus: false
 
 Setting the DNS of my current wifi to Google's DNS servers. Mostly taken from [serverfault](https://serverfault.com/a/810639/169530).
 
+<!--more-->
+
 ```bash
 WIFI_CON=$(nmcli device status | grep wifi | head -n 1 | sed 's/^[[:alnum:]]\+ \+wifi \+[[:alnum:]]\+  \+//')
 nmcli connection modify "${WIFI_CON}" ipv4.dns "8.8.8.8 8.8.4.4"
@@ -18,6 +20,7 @@ nmcli connection up "${WIFI_CON}"
 ```
 
 To check that everything has been correctly set
+
 ```bash
 cat /etc/resolv.conf
 ```

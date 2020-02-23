@@ -94,10 +94,6 @@ order = [".jpg$", ".gif$"]
 name = "aws"
 URL = "s3://ramblings.henryjenkins.name?region=us-east-1"
 
-[[deployment.targets]]
-name = "gcp"
-URL = "gs://ramblings.henryjenkins.name"
-
 [[deployment.matchers]]
 #  Cache static assets for 1 year
 pattern = "^.+\\.(js|css|svg|ttf)$"

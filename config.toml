@@ -95,7 +95,7 @@ order = [".jpg$", ".gif$"]
 
 [[deployment.targets]]
 name = "aws"
-URL = "s3://ramblings.henryjenkins.name?region=us-east-1"
+URL = "s3://ramblings.henryjenkins.name-2?region=us-east-1"
 
 [[deployment.matchers]]
 #  Cache static assets for 1 year

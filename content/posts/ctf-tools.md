@@ -58,6 +58,21 @@ python -c 'import pty; pty.spawn("/bin/bash")'
 
 More exciting payloads can be found at https://github.com/swisskyrepo/PayloadsAllTheThings
 
+## Fcrackzip
+
+For cracking password protected Zip files
+
+```bash
+curl -L https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt > rockyou.txt
+fcrackzip -v -D -p rockyou.txt archive.zip
+```
+
+## Find SUID bit set
+
+```bash
+find / -perm -u=s -type f 2>/dev/null
+```
+
 ## Other tools
 
 Just a quick dump of general tools that I use all the time:
@@ -65,3 +80,5 @@ Just a quick dump of general tools that I use all the time:
  * [Wireshark](https://www.wireshark.org/)
  * [GDB](https://www.gnu.org/software/gdb/)
  * [AFL](https://github.com/google/AFL)
+ * [linuxprivchecker.py](https://github.com/sleventyeleven/linuxprivchecker/blob/master/linuxprivchecker.py)
+ * [nmap](https://nmap.org/)

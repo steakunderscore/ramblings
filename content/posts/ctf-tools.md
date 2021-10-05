@@ -73,6 +73,14 @@ fcrackzip -v -D -p rockyou.txt archive.zip
 find / -perm -u=s -type f 2>/dev/null
 ```
 
+## Find interesting capabilities
+
+```bash
+getcap -r / 2>/dev/null
+```
+
+Look for capabilities which which don't make sense.
+
 ## Other tools
 
 Just a quick dump of general tools that I use all the time:

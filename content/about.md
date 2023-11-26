@@ -8,4 +8,4 @@ Really, another blog?! Well more of a place for me to keep notes. It's basically
 
 There's going to be little to no editing, so watch out for paper cuts.
 
-Got questions, feel free to [email me](ramblings@henryjenkins.name) or DM me on [twitter](https://twitter.com/steakunderscore).
+Got questions, feel free to [email me](mailto:ramblings@henryjenkins.name) or DM me on [twitter](https://twitter.com/steakunderscore).
